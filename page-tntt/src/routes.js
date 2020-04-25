@@ -1,6 +1,5 @@
-// import React from 'react'
-import Home from './pages/home/home';
-// import PageNotFound from './pages/page-not-found';
+import React from 'react'
+import Home from './pages/teachers/teachers';
 import Login from './pages/auth/login/login';
 
 // import Admin from './pages/admin/admin';

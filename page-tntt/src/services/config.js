@@ -1,1 +1,1 @@
-export const urlAPI = "http://210.2.98.74:8082/v01";
+export const urlAPI = "http://13.251.182.131/api";

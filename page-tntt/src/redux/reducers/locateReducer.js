@@ -6,6 +6,8 @@ let initialState = {
   listWard: [],
   provinceCode: 0,
   districtCode: 0,
+  activeEdit: '',
+
 };
 
 const locateReducer = (state = initialState, action) => {

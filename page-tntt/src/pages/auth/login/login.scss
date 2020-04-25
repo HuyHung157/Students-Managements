@@ -1,9 +1,10 @@
 .page__login {
+    // background-color: $color-black-1;
     position: relative;
     height: 100%;
     .page__login-container {
         .form_login {
-            background-color: $color-white-0;
+            background-color: $color-blue-6;
             width: 500px;
             margin: 50px auto 10px auto !important;
             padding: 20px 10px 40px;
@@ -74,7 +75,7 @@
                     // background-image: linear-gradient(to right, yellow, $color-red-0) !important;
                 }
                 &:hover {
-                    background-color: transparentize($color: $color-blue-5, $amount: 0.8);
+                    background-color: transparentize($color: $color-blue-1, $amount: 0.8);
                     border: 1px solid $color-blue-5;
                 }
             }

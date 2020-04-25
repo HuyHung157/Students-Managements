@@ -19,7 +19,6 @@ const signInUserSchema = Yup.object().shape({
     userName: Yup.string()
         .required('Vui lòng nhập tài khoản'),
     password: Yup.string()
-        .min(6, 'Mật khẩu tối thiếu 6 kí tự')
         .required('Vui lòng nhập mật khẩu'),
 })
 
@@ -54,7 +53,6 @@ const Login = () => {
                                 <h1 className="login__headingText">Đăng nhập</h1>
                             </div>
                             <Field
-                                // className="input__userName_login" 
                                 className={'input__userName_login form-control' + (formikProps.errors.userName && formikProps.touched.userName ? ' is-invalid' : '')}
                                 type="text"
                                 name="userName"
@@ -63,7 +61,6 @@ const Login = () => {
                             />
                             <ErrorMessage name="userName" component="span" className="invalid-feedback error " />
                             <Field
-                                // className="input__password_login" 
                                 className={'input__password_login form-control' + (formikProps.errors.password && formikProps.touched.password ? ' is-invalid' : '')}
                                 type="password"
                                 name="password"

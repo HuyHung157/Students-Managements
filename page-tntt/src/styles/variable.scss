@@ -4,7 +4,7 @@ $color-black-1: #343a40;
 $color-black-2: rgba(0, 0, 0, 0.788);
 $color-black-3: rgba(66, 63, 63, 0.5);
 $color-white-0: #fff; //default
-$color-white-1: #ececec;
+$color-white-1: #fcfcfc;
 $color-white-2: rgba(236, 236, 236, 0.8);
 $color-white-3: rgba(209, 209, 209, 0.8);
 $color-white-4: #d9d9d9;
@@ -32,8 +32,9 @@ $color-yellow-1: rgb(255, 174, 0);
 $color-yellow-2: rgb(185, 185, 54);
 $color-yellow-3: rgb(138, 138, 81);
 $color-green-0: green;
-$color-green-1: rgb(9, 197, 9);
+$color-green-1: rgba(68, 224, 68, 0.993);
 $color-green-2: #9fc038;
+$color-green-3: rgba(60, 199, 60, 0.993);
 $color-orange-0: orange;
 $color-orange-1: rgb(182, 139, 59);
 $color-blue-0: rgb(0, 173, 239);
@@ -42,6 +43,7 @@ $color-blue-2: rgb(0, 173, 239);
 $color-blue-3: #2166df;
 $color-blue-4: #709be6;
 $color-blue-5: #3679ec;
+$color-blue-6: #89d0fc8c;
 $color-facebook-0: #4267b2;
 $color-facebook-1: #013db6;
 $color-google-0: #eb4132;
@@ -84,9 +86,4 @@ $fw-bold-1: 700;
 $fw-bold: bold;
 
 //break points
-$breakpoints: (
-    "extra-large": 1200px,
-    "large": 992px,
-    "medium": 768px,
-    "small": 576px,
-);
+$breakpoints: ("extra-large": 1200px, "large": 992px, "medium": 768px, "small": 576px);

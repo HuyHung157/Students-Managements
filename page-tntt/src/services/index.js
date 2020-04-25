@@ -1,3 +1,6 @@
-import LocateService from "./locate";
+// import LocateService from "./locate"; 
+import StudentService from "./students";
 
-export const locateService = new LocateService();
+
+export const studentService = new StudentService();
+// export const locateService = new LocateService();
