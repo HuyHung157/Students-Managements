@@ -1,8 +1,11 @@
-// ListStudent
+// STUDENT - LIST
 export const GET_LIST_STUDENT = "GET_LIST_STUDENT";
 export const SET_PAGE_NUMBER = "SET_PAGE_NUMBER";
 
-// DeatailStudent
+// STUDENT- PROFILE
+export const GET_DETAIL_STUDENT = "GET_DETAIL_STUDENT";
+
+// LOCATE
 export const GET_LIST_PROVINCE = "GET_LIST_PROVINCE";
 export const SET_PROVINCE_CODE = "SET_PROVINCE_CODE";
 export const GET_LIST_DISTRICT = "GET_LIST_DISTRICT";

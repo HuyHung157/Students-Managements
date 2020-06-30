@@ -19,17 +19,17 @@
                 text-decoration: underline;
                 cursor: pointer;
                 transition: all 0.5s;
-                font-size: 25px;
+                font-size: 2.5rem;
                 &:hover {
                     color: $color-blue-0 !important;
-                    font-size: 26px;
+                    font-size: 2.6rem;
                 }
             }
             .logo_home {
                 display: block;
                 text-align: left;
                 i {
-                    font-size: 30px;
+                    font-size: 3rem;
                     color: $color-black-3;
                     background-color: $color-gray-1;
                     padding: 10px;
@@ -41,7 +41,7 @@
                 }
             }
             .login__headingSubtext {
-                font-size: 17px;
+                font-size: 1.7rem;
                 padding-top: 10px !important;
             }
             .login_img {
@@ -54,16 +54,16 @@
             .login__heading {
                 color: $color-black-1;
                 .login__headingText {
-                    font-size: 40px;
+                    font-size: 4rem;
                 }
             }
 
             input {
                 border-radius: 100px;
-                padding: 10px 15px !important;
+                padding: 20px 15px !important;
                 width: 70%;
                 height: 25px !important;
-                font-size: 17px;
+                font-size: 1.7rem;
                 border: 1px solid $color-white-4;
                 outline: none;
                 display: block !important;
@@ -85,7 +85,7 @@
             .error {
                 display: block;
                 text-align: center;
-                font-size: 15px;
+                font-size: 1.5rem;
                 font-style: italic;
                 background-color: $color-red-error;
                 color: $color-red-1;
@@ -112,7 +112,7 @@
                 display: block !important;
                 margin: 20px auto 15px auto !important;
                 outline: none;
-                font-size: 20px;
+                font-size: 2rem;
                 letter-spacing: 2px;
                 transition: all 0.5s;
                 &:hover {
@@ -149,7 +149,7 @@
                         a {
                             width: 100%;
                             color: $color-white-0 !important;
-                            font-size: 17px;
+                            font-size: 1.7rem;
                             i {
                                 margin-right: 12px;
                                 padding: 5px;

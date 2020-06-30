@@ -8,9 +8,9 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	color: $color-white-0;
+	color: $color-black-1;
 	.logo {
-		color: $color-white-0;
+		color: $color-black-1;
 		transition: all 0.5s;
 		&:hover {
 			.logo_home {
@@ -20,8 +20,8 @@
 			}
 		}
 		.logo_home {
-			font-size: 100px;
-			color: $color-white-0;
+			font-size: 10rem;
+			color: $color-black-1;
 			background: transparent;
 			transition: all 0.5s;
 		}
@@ -29,7 +29,7 @@
 	.pageNotFound__number {
 		display: block;
 		width: 100%;
-		font-size: 350px;
+		font-size: 35rem;
 		background: -webkit-linear-gradient($color-red-0, orange);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -37,7 +37,7 @@
 	.pageNotFound__text {
 		display: block;
 		width: 100%;
-		font-size: 120px;
+		font-size: 12rem;
 	}
 	p {
 		color: $color-white-0;
@@ -55,7 +55,7 @@
 		// position: absolute;
 		margin-top: 15px;
 		color: $color-black-1;
-		font-size: 40px;
+		font-size: 4rem;
 		font-style: italic;
 	}
 }
