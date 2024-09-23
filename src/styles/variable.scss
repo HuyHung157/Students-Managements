@@ -1,0 +1,96 @@
+// variable color
+$color-black-0: #000000; // default
+$color-black-1: #343a40;
+$color-black-2: rgba(0, 0, 0, 0.788);
+$color-black-3: rgba(66, 63, 63, 0.5);
+$color-white-0: #fff; //default
+$color-white-1: #fcfcfc;
+$color-white-2: rgba(236, 236, 236, 0.8);
+$color-white-3: rgba(209, 209, 209, 0.8);
+$color-white-4: #d9d9d9;
+$color-red-0: rgb(231, 26, 38);
+$color-red-1: rgb(226, 0, 38);
+$color-red-2: #c0102d;
+$color-red-3: #bd0d0de5;
+$color-red-4: #f80d0dbe;
+$color-red-error: #f8d7da;
+$color-purple: #6e1a52;
+$color-gray-0: #bec2cb;
+$color-gray-1: #dddddd;
+$color-gray-2: rgba(255, 255, 255, 0.61);
+$color-gray-3: #495057;
+$color-gray-4: #d8d8d8;
+$color-gray-5: rgb(182, 182, 182);
+$color-gray-6: #999;
+$color-gray-7: #636363;
+$color-black-light: #505763;
+$color-white-cream: #f2f3f5;
+$color-black-dark: rgba(20, 23, 28, 0.1);
+$color-yellow: #f4c150;
+$color-yellow-0: rgb(255, 255, 0);
+$color-yellow-1: rgb(255, 174, 0);
+$color-yellow-2: rgb(185, 185, 54);
+$color-yellow-3: rgb(138, 138, 81);
+$color-green-0: green;
+$color-green-1: rgba(68, 224, 68, 0.993);
+$color-green-2: #9fc038;
+$color-green-3: rgba(60, 199, 60, 0.993);
+$color-orange-0: orange;
+$color-orange-1: rgb(182, 139, 59);
+$color-blue-0: rgb(0, 173, 239);
+$color-blue-1: rgb(0, 136, 198);
+$color-blue-2: rgb(0, 173, 239);
+$color-blue-3: #2166df;
+$color-blue-4: #709be6;
+$color-blue-5: #3679ec;
+$color-blue-6: #89d0fc8c;
+$color-blue-7: #56ade2ea;
+$color-blue-8: #1082c9ec;
+$color-facebook-0: #4267b2;
+$color-facebook-1: #013db6;
+$color-google-0: #eb4132;
+$color-google-1: #d61200;
+$color-twitter-0: #1da1f2;
+$color-twitter-1: #0183d4d3;
+$color-mail-0: #db493c;
+$color-mail-1: #db493cd3;
+$color-telegram-0: #33abe0;
+$color-telegram-1: #33ace0cb;
+
+// variable font-size
+$fs-0: 15px; //default
+$fs-1: 13px;
+$fs-2: 20px;
+$fs-3: 22px;
+$fs-4: 36px;
+$fs-5: 40px;
+
+//variable margin
+$mg-0: 2px;
+$mg-1: 10px;
+$mg-2: 25px;
+
+//variable border-radius
+$border-radius: 2px;
+
+//variable padding
+$pd-0: 5px; //default
+$pd-1: 10px;
+$pd-2: 20px;
+
+//variable line-height
+$line-height-0: 1.43; //default
+
+//variable font-weight
+$fw-normal: normal;
+$fw-bold-0: 600;
+$fw-bold-1: 700;
+$fw-bold: bold;
+
+//break points
+$breakpoints: (
+    "extra-large": 1200px,
+    "large": 992px,
+    "medium": 768px,
+    "small": 576px,
+);

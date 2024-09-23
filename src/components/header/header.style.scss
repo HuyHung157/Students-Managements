@@ -1,0 +1,39 @@
+.header {
+	margin: 0 0 16px;
+	display: block;
+	height: 100px;
+	background-color: $color-blue-6;
+	width: 99%;
+	box-shadow: 0 2px 10px -3px $color-black-1;
+	line-height: 100px;
+	ul {
+		padding: 0 20px;
+		display: flex;
+		justify-content: space-between;
+		.header__name {
+			// font-family: "Barlow Semi Condensed", sans-serif;
+			font-family: "Yeseva One", cursive;
+			color: $color-red-0;
+			font-size: 3.2rem;
+			font-style: italic;
+		}
+		.MuiButtonBase-root {
+			background-color: $color-blue-2;
+			color: $color-white-0;
+			.header__user {
+				display: flex;
+				align-items: center;
+				li.avatar-item {
+					.header__avatar {
+						height: 60px;
+						width: auto;
+						display: block;
+					}
+				}
+				p {
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+}

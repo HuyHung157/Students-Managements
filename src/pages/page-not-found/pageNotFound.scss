@@ -1,0 +1,61 @@
+.pageNotFound {
+	position: fixed;
+	top: 5%;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	// display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: $color-black-1;
+	.logo {
+		color: $color-black-1;
+		transition: all 0.5s;
+		&:hover {
+			.logo_home {
+				background: -webkit-linear-gradient($color-red-0, orange);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+		.logo_home {
+			font-size: 10rem;
+			color: $color-black-1;
+			background: transparent;
+			transition: all 0.5s;
+		}
+	}
+	.pageNotFound__number {
+		display: block;
+		width: 100%;
+		font-size: 35rem;
+		background: -webkit-linear-gradient($color-red-0, orange);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	.pageNotFound__text {
+		display: block;
+		width: 100%;
+		font-size: 12rem;
+	}
+	p {
+		color: $color-white-0;
+	}
+}
+.page__commingSoon {
+	display: block;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	img {
+		margin-top: 70px;
+	}
+	h2 {
+		// position: absolute;
+		margin-top: 15px;
+		color: $color-black-1;
+		font-size: 4rem;
+		font-style: italic;
+	}
+}
